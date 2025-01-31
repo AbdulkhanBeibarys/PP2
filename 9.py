@@ -1,4 +1,3 @@
-x = y = z = "Orange"
-print(x)
-print(y)
-print(z)
+fruits = ["apple", "banana"]
+if "apple" in fruits:
+  print("Yes, apple is a fruit!")

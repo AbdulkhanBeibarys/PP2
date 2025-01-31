@@ -1,7 +1,3 @@
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
-print(my_var)
+x = 5
+x += 3
+print(x)

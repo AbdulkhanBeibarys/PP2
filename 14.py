@@ -1,6 +1,4 @@
-x = "awesome"
-
-def myfunc():
-    print("Python is" + x)
-
-myfunc()
+list1 = ['a', 'b' , 'c']
+list2 = [1, 2, 3]
+for x in list2:
+  list1.append(x)

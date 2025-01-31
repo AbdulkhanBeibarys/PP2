@@ -1,9 +1,14 @@
-x = "awesome"
+x = {'type' : 'fruit', 'name' : 'banana'}
+print(len(x))
 
-def myfunc():
-  global x
-  x = "fantastic"
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(
+car.get("model")
+)
 
-myfunc()
-
-print("Python is " + x)
+x = {'type' : 'fruit', 'name' : 'banana'}
+print(x['type'])

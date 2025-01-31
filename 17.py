@@ -1,6 +1,6 @@
-x = 1    # int
-y = 2.8  # float
-z = 1j   # complex
-print(type(x))
-print(type(y))
-print(type(z))
+x = 5
+y = 8
+if x > y:
+  print('Hello')
+else:
+  print('Welcome')
