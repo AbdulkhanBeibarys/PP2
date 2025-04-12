@@ -34,7 +34,7 @@ game_over = font.render("Game Over", True, BLACK)
 background = pygame.image.load("images/track.png")
 
 # Load Sounds
-crash_sound = pygame.mixer.Sound("sound/crashway.wav")
+crash_sound = pygame.mixer.Sound("sound/crashsound.wav")
 coin_sound = pygame.mixer.Sound("sound/coinsound.wav")  # <- Добавь файл coin.wav в images
 
 # Create game screen
